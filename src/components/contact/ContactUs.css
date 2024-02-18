@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif !important;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #5C88E8;
+    --primary-white: #F6F6F6;
+    --primary--black: rgba(0, 0, 0, 0.763);
+    --small-text: 13px;
+    --normal--para: 15px;
+    --h1: 50px;
+    --h2: 25px;
+    --h3: 20px;
+    --main: 30px;
+    --border-radius: 50px;
+    --mainColor: #127A93;
+    --color1: #0C5C97;
+    --subColor: #FAD509;
+    --paragraphSize: 18px;
+    --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.main_page {
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.717), rgba(0, 0, 0, 0.717)), url("./images/image_consultation-request-1.jpg");
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.main_page .text {
+    width: 70%;
+    height: auto;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.main_page .text p {
+    margin-top: 20px;
+    font-weight:lighter;
+    font-size:var(--normal--para);
+}
+
+.form_page {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/topography_grey_reverse.webp");
+    border-top: 10px solid var(--mainColor);
+    padding:100px;
+}
+
+.form_page .form-box {
+    width: 700px;
+    height:auto;
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/12px 12px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/12px 12px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/12px 12px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/12px 12px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 18px) calc(100% - 24px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 24px) calc(100% - 18px) no-repeat,
+        linear-gradient(264deg, transparent 0%, var(--mainColor) 100%),
+        linear-gradient(90deg, transparent 0%, var(--subColor) 100%);
+    border-radius: 12px;
+    padding: 15px;
+    box-sizing: content-box;
+    margin: auto;
+    padding-bottom:30px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.form_page .form-box input {
+    outline:none;
+    border:none;
+    border-bottom:1px solid ;
+    margin-left:20px;
+    margin-top:30px;
+    padding-left:10px;
+    font-size:var(--small-text);
+    padding-bottom:10px;
+    width:calc(50% - 20px);
+    padding:10px;
+    border-radius:8px;
+}
+.email-inp{
+    width:82%;
+}
+.text-area{
+    font-size:var(--small-text);
+    width:95%;
+    margin-left:20px;
+    outline:none;
+    margin-top:30px;
+    padding:10px;
+    border-radius:8px;
+    border:none;
+    border-bottom:1px solid ;
+}
+.text-area:focus,.form_page .form-box input:focus{
+    border:1px solid var(--primary);
+}
+.form_page .form-box button{
+    width:95%;
+    height:13%;
+    margin-left:2.5%;
+    margin-top:30px;
+    border:none;
+    border-radius:20px;
+    color:white;
+    background-color: #5C88E8;
+    letter-spacing:2px;
+    font-size:var(--h3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:845px) {
+    .form_page .form-box{
+        width:80%;
+    }
+}
+@media screen and (max-width:760px) {
+    .main_page {
+        width: 100%;
+        padding: 70px 0px;
+    }
+}
+@media screen and (max-width:655px){
+    .form_page .form-box{
+        width:80%;
+    }
+    .form_page{
+        padding:20px;
+    }
+}
+@media screen and (max-width:617px) {
+    .main_page {
+        width: 100%;
+        padding: 30px 30px;
+    }
+
+    .main_page .text {
+        width: 90%;
+        font-size: var(--h3);
+    }
+}
+
+@media screen and (max-width:510px) {
+    .main_page {
+        width: 100%;
+        padding: 30px 30px;
+    }
+
+    .main_page .text {
+        width: 100%;
+        font-size: var(--h3);
+    }
+}
+
+@media screen and (max-width:450px) {
+    .form_page .form-box{
+        width:90%;
+    }
+    .form_page{
+        padding:20px;
+    }
+    .form_page .form-box input{
+        width:100%;
+        margin-left:1%;
+    }
+    .form_page .form-box textarea{
+        margin-left:1%;
+    }
+}
