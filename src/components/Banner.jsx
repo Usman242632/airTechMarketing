@@ -48,7 +48,7 @@ useEffect(()=>{
         <div className="container-banner">
           <div className="left-container">
             <p>Trusted by 2M+ users <AiFillStar className='star star-one'/> <AiFillStar className='star'/> <AiFillStar className='star'/> <AiFillStar className='star'/> <AiFillStar/> </p>
-          <h1>Websitee score is important , check your Website score now</h1>
+          <h1>Website score is important , check your Website score now</h1>
           <p className='sp-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt at magni cumque iusto reiciendis vero optio aut alias recusandae nobis culpa beatae temporibus reprehenderit, hic atque architecto ex sapiente assumenda suscipit ducimus aliquam dolore provident in. Voluptate quis est placeat?</p>
           <div className="input-banner">
             <input type="text" placeholder='which service ?' />
