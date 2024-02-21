@@ -15,9 +15,16 @@ export const AboutText = () => {
             <p><AiOutlineCheckCircle className='abt-i'/> &nbsp; Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, voluptatem. Lorem ipsum dolor sit amet . </p>
         </div>
         <div className="inR-abText">
-            {/* <img src="/images/ls1.png" className='frst1' alt="" /> */}
-            <img src="/images/mrkt.png" className='scnd2' alt="" />
-        </div>
+            <img src="/images/ls4.jpeg" className='scnd2' alt="" />
+            <img src="/images/ls6.jpeg" className='scnd2' alt="" />
+            <img src="/images/ls4.jpeg" className='scnd2' alt="" />
+            <img src="/images/ls6.jpeg" className='scnd2' alt="" />
+            <img src="/images/ls4.jpeg" className='scnd2' alt="" />
+            <img src="/images/ls6.jpeg" className='scnd2' alt="" />
+            <img src="/images/ls4.jpeg" className='scnd2' alt="" />
+            <img src="/images/ls6.jpeg" className='scnd2' alt="" />
+            <img src="/images/ls4.jpeg" className='scnd2' alt="" />
+         </div>
     </div>
     </>
   )

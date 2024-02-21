@@ -6,7 +6,7 @@ export const AboutCopy = () => {
     <>
     <div className='chairmain-box'>
         <div className="img-box">
-            <img className='late-img' src="https://ihrmagazine.com/wp-content/uploads/2021/07/seo.png" alt="" />
+            <img src="https://ihrmagazine.com/wp-content/uploads/2021/07/seo.png" alt="" />
         </div>
         <div className="message-box">
             <h1>SEO</h1>
@@ -29,7 +29,7 @@ export const AboutCopy = () => {
             <p><FcCustomerSupport/> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
             <button>Contact Him</button>
             </div>
-            <div className="img-box">123
+            <div className="img-box">
             <img src="https://img.freepik.com/premium-photo/developing-programming-coding-technologies-with-website-design-virtual-diagram_103164-375.jpg" alt="" />
         </div>
 

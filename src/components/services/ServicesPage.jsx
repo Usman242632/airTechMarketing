@@ -1,4 +1,4 @@
-  import React from 'react'
+import React from 'react'
 import Solutuions from '../solutions/solutions'
 import { ServiceSlider } from '../ServiceSlider'
 import { Result } from '../realresults/results'

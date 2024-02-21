@@ -23,9 +23,6 @@ export const Services = () => {
         <input type="radio" name="pcss3t" id="tab5" class="tab-content-last"/>
         <label for="tab5"><i class="icon-globe"></i> MARKETING <FcBullish className='label-i'/> </label>
 
-        <input type="radio" name="pcss3t" id="tab5" class="tab-content-last"/>
-        <label for="tab5"><i class="icon-globe"></i> MARKETING <FcBullish className='label-i'/> </label>
-
         <ul>
           <li class="tab-content tab-content-first typography">
             <div className="left-service">
@@ -55,11 +52,9 @@ export const Services = () => {
             <p>Serbian-American inventor, electrical engineer, mechanical engineer, physicist, and futurist best known for his contributions to the design of the modern alternating current (AC) electrical supply system.</p>
             <p>Tesla started working in the telephony and electrical fields before emigrating to the United States in 1884 to work for Thomas Edison. He soon struck out on his own with financial backers, setting up laboratories/companies to develop a range of electrical devices. His patented AC induction motor and transformer were licensed by George Westinghouse, who also hired Tesla as a consultant to help develop an alternating current system . </p>
             </div>
-            <div className="right-service">
-
+            <div className="right-service"> 
             </div>
             </li>
-          
           <li class="tab-content tab-content-last typography">
               <div className="left-service">
               <h1> MARKETING <FcBullish/></h1>
